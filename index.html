@@ -52,10 +52,10 @@
         const settings = {
             seed: 91651088029,
             fps: 0,
-            dimensions: 500,
+            dimensions: 1000,
             atoms: {
                 count: 300, // Per Color
-                radius: 0.5
+                radius: 0.25
             },
             drawings: { // Drawing options can be expensive on performance
                 lines: false, // draw lines between atoms that arr effecting each other
@@ -67,7 +67,7 @@
             },
             rules: {},
             rulesArray: [],
-            colors:  ['blue', 'white', 'hotpink', 'cyan', 'magenta', 'purple', 'lavender', 'azure'],
+            colors:  ['white', 'cyan', 'violet', 'purple', 'pink', 'blue'],
             time_scale: 1.0,
             cutOff: 6400 * 2, // interaction distance cut-off
             viscosity: 0.7, // speed-dampening
@@ -154,7 +154,7 @@
         // Build GUI
         const setupGUI = () => {
             settings.gui = new GUI({
-                title: 'Particle Life Config'
+                title: 'Config'
             })
             // Configs
             const configFolder = settings.gui.addFolder('Config')
