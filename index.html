@@ -50,11 +50,11 @@
         import { OrbitControls } from 'https://cdn.skypack.dev/three@0.132.2/examples/jsm/controls/OrbitControls.js'
 
         const settings = {
-            seed: 91651088029,
+            seed: 91351088029,
             fps: 0,
-            dimensions: 1000,
+            dimensions: 500,
             atoms: {
-                count: 300, // Per Color
+                count: 200, // Per Color
                 radius: 0.4
             },
             drawings: { // Drawing options can be expensive on performance
@@ -67,10 +67,10 @@
             },
             rules: {},
             rulesArray: [],
-            colors:  ['white', 'cyan', 'violet', 'purple', 'pink', 'blue', 'navy', 'red'],
+            colors:  ['white', 'cyan', 'violet', 'purple', 'pink', 'blue'],
             time_scale: 1.0,
             cutOff: 6400 * 2, // interaction distance cut-off
-            viscosity: 0.55, // speed-dampening
+            viscosity: 0.6, // speed-dampening
             pulseDuration: 10,
             reset: () => resetScene(),
             randomRules: () => {
