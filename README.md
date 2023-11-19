@@ -25,4 +25,4 @@ This project is built with:
 - CSS3
 - JavaScript
 
-- ## :computer: [Live Site](https://tflannagan.github.io/ParticleSim3D)
+## :computer: [Live Site](https://tflannagan.github.io/ParticleSim3D)
