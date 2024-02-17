@@ -49,6 +49,16 @@
         import * as THREE from 'https://cdn.skypack.dev/three@0.144.0'
         import { OrbitControls } from 'https://cdn.skypack.dev/three@0.132.2/examples/jsm/controls/OrbitControls.js'
 
+
+        const colorPalette = {
+            NeonPink: "#FF007F",
+            BrightBlue: "#00FFFF",
+            Purple: "#9400D3",
+            DarkBlue: "#00008B",
+            VibrantOrange: "#FFA500",
+
+        };
+
         const settings = {
             seed: 91351088029,
             fps: 0,
@@ -67,7 +77,7 @@
             },
             rules: {},
             rulesArray: [],
-            colors:  ['white', 'cyan', 'violet', 'navy'],
+            colors:  [colorPalette.NeonPink, colorPalette.BrightBlue, colorPalette.Purple, colorPalette.DarkBlue],
             time_scale: 1.0,
             cutOff: 6400 * 2, // interaction distance cut-off
             viscosity: 0.6, // speed-dampening
