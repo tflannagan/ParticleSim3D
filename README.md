@@ -1,4 +1,4 @@
-# 3D Particle Simulation :atom_symbol:
+# ParticleSim3D :atom_symbol:
 
 Welcome to our 3D Particle Simulation website! This is an interactive web-based simulation that allows you to explore and learn about the behavior of particles in a 3D environment.
 
